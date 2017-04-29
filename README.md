@@ -20,10 +20,14 @@ In this part, you can retrieve the paper before 2016 on this [site](https://site
 2. FF-GAN [[Paper](https://arxiv.org/abs/1704.06244)]
 
 ## Feature Representation
+### Network
+1. DeepFace [[Paper](https://www.cs.toronto.edu/~ranzato/publications/taigman_cvpr14.pdf)]
+2. DeepID series [[DeepID](http://mmlab.ie.cuhk.edu.hk/pdf/YiSun_CVPR14.pdf)] [[DeepID2](http://arxiv.org/abs/1406.4773)] [[DeepID3](http://arxiv.org/abs/1502.00873)]
+
+### Loss
 1. Center Loss [[Paper](http://ydwen.github.io/papers/WenECCV16.pdf)] [[Code](https://github.com/ydwen/caffe-face)](Caffe + MATLAB) [[Code](https://github.com/pangyupo/mxnet_center_loss)](MXNET)
-2. DeepFace [[Paper](https://www.cs.toronto.edu/~ranzato/publications/taigman_cvpr14.pdf)]
-3. FaceNet [[Paper](http://www.cv-foundation.org/openaccess/content_cvpr_2015/app/1A_089.pdf)][[Code](https://github.com/cmusatyalab/openface)](Torch) [[Code](https://github.com/davidsandberg/facenet)](TensorFlow)
-4. DeepID series [[DeepID](http://mmlab.ie.cuhk.edu.hk/pdf/YiSun_CVPR14.pdf)] [[DeepID2](http://arxiv.org/abs/1406.4773)] [[DeepID3](http://arxiv.org/abs/1502.00873)]
+2. Triplet Loss [[Paper](http://www.cv-foundation.org/openaccess/content_cvpr_2015/app/1A_089.pdf)][[Code](https://github.com/cmusatyalab/openface)](Torch) [[Code](https://github.com/davidsandberg/facenet)](TensorFlow)
+3. A-Softmax Loss [[Paper](https://arxiv.org/abs/1704.08063)]
 
 ## Pipelines
 1. [OpenFace](https://github.com/cmusatyalab/openface): Face recognition with Google's FaceNet deep neural network using Torch.
@@ -33,7 +37,7 @@ In this part, you can retrieve the paper before 2016 on this [site](https://site
 1. [VGG-Face](http://www.robots.ox.ac.uk/~vgg/software/vgg_face/): VGG-Face CNN descriptor.
 
 ## Tutorial
-1. [Deep Learning for Face Recognition](http://valse.mmcheng.net/deep-learning-for-face-recognition/). Shiguan Shan, Xiaogang Wang, and Ming yang.
+1. [Deep Learning for Face Recognition](http://valse.mmcheng.net/deep-learning-for-face-recognition/)
 
 ## Datasets
 1. MS-Celeb-1M: Microsoft dataset contains around 1M subjects [[Paper](https://arxiv.org/abs/1607.08221)] [[Download](https://www.microsoft.com/en-us/research/project/ms-celeb-1m-challenge-recognizing-one-million-celebrities-real-world/)]
