@@ -25,9 +25,11 @@ In this part, you can retrieve the paper before 2016 on this [site](https://site
 2. DeepID series [[DeepID](http://mmlab.ie.cuhk.edu.hk/pdf/YiSun_CVPR14.pdf)] [[DeepID2](http://arxiv.org/abs/1406.4773)] [[DeepID3](http://arxiv.org/abs/1502.00873)]
 
 ### Loss
-1. Center Loss [[Paper](http://ydwen.github.io/papers/WenECCV16.pdf)] [[Code](https://github.com/ydwen/caffe-face)](Caffe + MATLAB) [[Code](https://github.com/pangyupo/mxnet_center_loss)](MXNET)
-2. Triplet Loss [[Paper](http://www.cv-foundation.org/openaccess/content_cvpr_2015/app/1A_089.pdf)][[Code](https://github.com/cmusatyalab/openface)](Torch) [[Code](https://github.com/davidsandberg/facenet)](TensorFlow)
-3. A-Softmax Loss [[Paper](https://arxiv.org/abs/1704.08063)]
+1. Triplet Loss [[Paper](http://www.cv-foundation.org/openaccess/content_cvpr_2015/app/1A_089.pdf)][[Code](https://github.com/cmusatyalab/openface)](Torch) [[Code](https://github.com/davidsandberg/facenet)](TensorFlow)
+2. Center Loss [[Paper](http://ydwen.github.io/papers/WenECCV16.pdf)] [[Code](https://github.com/ydwen/caffe-face)](Caffe + MATLAB) [[Code](https://github.com/pangyupo/mxnet_center_loss)](MxNet)
+3. Range Loss [[Paper](https://arxiv.org/abs/1611.08976)]
+4. L-Softmax [[Paper](https://arxiv.org/abs/1612.02295)] [[Code](https://github.com/wy1iu/LargeMargin_Softmax_Loss)] (Caffe) [[Code](https://github.com/luoyetx/mx-lsoftmax)] (MxNet)
+5. A-Softmax Loss [[Paper](https://arxiv.org/abs/1704.08063)]
 
 ## Pipelines
 1. [OpenFace](https://github.com/cmusatyalab/openface): Face recognition with Google's FaceNet deep neural network using Torch.
@@ -46,12 +48,13 @@ In this part, you can retrieve the paper before 2016 on this [site](https://site
 4. CelebA: 202,599 images and 10,177 subjects, 5 landmark locations, 40 binary attributes [[Download](http://mmlab.ie.cuhk.edu.hk/projects/)]
 5. MegaFace: 1 Million Faces for Recognition at Scale, 690,572 subjects [[Download](http://megaface.cs.washington.edu/)]
 6. FDDB: Face Detection and Data Set Benchmark. 5k images [[Download](http://vis-www.cs.umass.edu/fddb/)]
-7. AFLW: Annotated Facial Landmarks in the Wild: A Large-scale, Real-world Database for Facial Landmark Localization. 25k images. [[Download](https://lrs.icg.tugraz.at/research/aflw/)]
+7. AFLW: Annotated Facial Landmarks in the Wild: A Large-scale, Real-world Database for Facial Landmark Localization. 25K images. [[Download](https://lrs.icg.tugraz.at/research/aflw/)]
 
 ## Libraries
 1. [TensorFlow](tensorflow.org)
 2. [Torch](torch.ch) and [PyTorch](pytorch.org)
-3. [Caffe](caffe.berkeleyvision.org)
-4. [OpenCV](http://opencv.org/)
-5. [dlib](http://dlib.net/ml.html)
+3. [MxNet](mxnet.io)
+4. [Caffe](caffe.berkeleyvision.org)
+5. [OpenCV](http://opencv.org/)
+6. [dlib](http://dlib.net/ml.html)
 
