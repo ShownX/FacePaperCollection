@@ -44,7 +44,7 @@ In this part, you can retrieve the paper before 2016 on this [site](https://site
 2. DeepID series: [[DeepID](http://mmlab.ie.cuhk.edu.hk/pdf/YiSun_CVPR14.pdf)] [[DeepID2](http://arxiv.org/abs/1406.4773)] [[DeepID3](http://arxiv.org/abs/1502.00873)]
 3. [VGG-Face](http://www.robots.ox.ac.uk/~vgg/software/vgg_face/): VGG-Face CNN descriptor.
 4. [VGG-Face2](http://www.robots.ox.ac.uk/~vgg/data/vgg_face2/): VGG-Face ResNet descriptor.
-6. Pairwise Relation Network: [Paper(https://arxiv.org/pdf/1808.04976.pdf)]
+6. Pairwise Relation Network: [[Paper](https://arxiv.org/pdf/1808.04976.pdf)]
 7. Face Recognition with Contrastive Convolution
 
 ### Loss
