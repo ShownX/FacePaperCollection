@@ -1,7 +1,7 @@
 # Face related papers collection
 A collection for the face-related papers and codes.
 
-Updated on 11/04/2017
+Updated on 08/20/2018
 
 ## Face Detection
 1. Multiview Face Detection: [[Paper](https://arxiv.org/abs/1502.02766)]  [[Code](https://github.com/guoyilin/FaceDetection_CNN)] (Caffe + Python)
@@ -29,6 +29,8 @@ In this part, you can retrieve the paper before 2016 on this [site](https://site
 6. 3DFaceNet [[Paper](https://arxiv.org/pdf/1708.00980.pdf)]
 7. MoFA: Unsupervised learning for 3D model and pose parameters [[Paper](https://arxiv.org/abs/1703.10580)]
 8. 3DMM-STN: Using 3DMM to transfer 2D image to 2D image texture [[Paper](https://arxiv.org/abs/1708.07199)]
+9. Dense Semantic and Topological Correspondence of 3D Faces without Landmarks
+10. Generating 3D Faces using Convolutional Mesh Autoencoders [[Paper](https://arxiv.org/pdf/1807.10267.pdf)] [[Code](https://github.com/anuragranj/coma)]
 
 ## Face GAN
 1. TP-GAN: [[Paper](https://arxiv.org/abs/1704.04086)]
@@ -42,6 +44,8 @@ In this part, you can retrieve the paper before 2016 on this [site](https://site
 2. DeepID series: [[DeepID](http://mmlab.ie.cuhk.edu.hk/pdf/YiSun_CVPR14.pdf)] [[DeepID2](http://arxiv.org/abs/1406.4773)] [[DeepID3](http://arxiv.org/abs/1502.00873)]
 3. [VGG-Face](http://www.robots.ox.ac.uk/~vgg/software/vgg_face/): VGG-Face CNN descriptor.
 4. [VGG-Face2](http://www.robots.ox.ac.uk/~vgg/data/vgg_face2/): VGG-Face ResNet descriptor.
+6. Pairwise Relation Network: [Paper(https://arxiv.org/pdf/1808.04976.pdf)]
+7. Face Recognition with Contrastive Convolution
 
 ### Loss
 1. Triplet Loss [[Paper](http://www.cv-foundation.org/openaccess/content_cvpr_2015/app/1A_089.pdf)][[Code](https://github.com/cmusatyalab/openface)](Torch) [[Code](https://github.com/davidsandberg/facenet)](TensorFlow)
@@ -52,9 +56,13 @@ In this part, you can retrieve the paper before 2016 on this [site](https://site
 6. Marginal Loss [[Paper](https://ibug.doc.ic.ac.uk/media/uploads/documents/deng_marginal_loss_for_cvpr_2017_paper.pdf)]
 
 ## Pipelines
-1. [OpenFace](https://github.com/cmusatyalab/openface): Face recognition with Google's FaceNet deep neural network using Torch.
-2. [SeetaFaceEngine](https://github.com/seetaface/SeetaFaceEngine): An open source C++ face recognition engine.
-3. [UR2D](http://cbl.uh.edu/pub_files/IJCB-2017-XX.pdf): 3D-aided 2D Face Recognition system
+1. OpenFace: Face recognition with Google's FaceNet deep neural network using Torch. [[Paper](http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf)] [[Code]((https://github.com/cmusatyalab/openface))]
+2. SeetaFaceEngine: An open source C++ face recognition engine. [[Paper](https://github.com/seetaface/SeetaFaceEngine)]
+3. UR2D: 3D-aided 2D Face Recognition system, IJCB 2017. [[Paper](](http://cbl.uh.edu/pub_files/IJCB-2017-XX.pdf))]
+4. GridFace: Face Rectification via Learning Local Homography Transformations, ECCV 2018. [[Paper](http://arxiv.org/abs/1808.06210)]
+5. Dependency-aware Attention Control for Unconstrained Face Recognition with Image Sets
+6. Consensus-Driven Propagation in Massive Unlabeled Data for Face Recognition
+
 
 ## Tutorial
 1. [Deep Learning for Face Recognition](http://valse.mmcheng.net/deep-learning-for-face-recognition/)
