@@ -151,12 +151,13 @@ across Pose and Illumination Variation [[Paper](http://cbl.uh.edu/pub_files/UHDB
 - DeepFace: Closing the Gap to Human-Level Performance in Face Verification, CVPR14: [[Paper](https://www.cs.toronto.edu/~ranzato/publications/taigman_cvpr14.pdf)]  
 
 #### Image-set-based Template Generator <a name="face-recognition-set-template-generator"></a>
-- Dependency-aware Attention Control for Unconstrained Face Recognition with Image Sets, ECCV, 2018 [[Paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Xiaofeng_Liu_Dependency-aware_Attention_Control_ECCV_2018_paper.pdf)]
+- [Dependency-aware Attention Control for Unconstrained Face Recognition with Image Sets](http://openaccess.thecvf.com/content_ECCV_2018/papers/Xiaofeng_Liu_Dependency-aware_Attention_Control_ECCV_2018_paper.pdf), ECCV, 2018
+- [Comparator Network](http://openaccess.thecvf.com/content_ECCV_2018/papers/Weidi_Xie_Comparator_Networks_ECCV_2018_paper.pdf), ECCV, 2018 [[Pytorch](https://github.com/yeomko22/ComparatorNetwork_pytorch)] 
 
 
 #### Training Loss <a name="face-recognition-training-loss"></a>
-- InsightFace (ArcFace): Additive Angular Margin Loss for Deep Face Recognition [[Paper](https://arxiv.org/abs/1801.07698)]  [[MXNet](https://github.com/deepinsight/insightface)] 
-- CosFace: Large Margin Cosine Loss for Deep Face Recognition [[Paper](http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/1797.pdf)]  [[TensorFlow](https://github.com/yule-li/CosFace)]  [[MXNet](https://github.com/deepinsight/insightface)] 
+- InsightFace (ArcFace): [Additive Angular Margin Loss for Deep Face Recognition](https://arxiv.org/abs/1801.07698), ArXiv, 2018 [[MXNet](https://github.com/deepinsight/insightface)] 
+- CosFace: [Large Margin Cosine Loss for Deep Face Recognition](http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/1797.pdf), CVPR, 2018 [[TensorFlow](https://github.com/yule-li/CosFace)]  [[MXNet](https://github.com/deepinsight/insightface)] 
 - Ring loss: Convex Feature Normalization for Face Recognition [[Paper](https://arxiv.org/abs/1803.00130)]  [[PyTorch](https://github.com/Paralysis/ringloss)] 
 - Git Loss for Deep Face Recognition [[Paper](https://arxiv.org/abs/1807.08512)] 
 - A-Softmax Loss (SphereFace) [[Paper](https://arxiv.org/abs/1704.08063)]  [[Caffe](https://github.com/wy1iu/sphereface)] (Caffe) 
@@ -167,9 +168,9 @@ across Pose and Illumination Variation [[Paper](http://cbl.uh.edu/pub_files/UHDB
 - Marginal Loss [[Paper](https://ibug.doc.ic.ac.uk/media/uploads/documents/deng_marginal_loss_for_cvpr_2017_paper.pdf)] 
 
 ### Face Recognition Pipeline <a name="face-recognition-pipeline"></a>
-- UR2D-E:Evaluation of a 3D-aided Pose Invariant 2D Face Recognition System [[Paper](http://cbl.uh.edu/pub_files/IJCB-2017-XX.pdf))] 
+- [UR2D-E:Evaluation of a 3D-aided Pose Invariant 2D Face Recognition System](http://cbl.uh.edu/pub_files/IJCB-2017-XX.pdf)
 - SeetaFaceEngine: An open source C++ face recognition engine. [[C++](https://github.com/seetaface/SeetaFaceEngine)] 
-- OpenFace: Face recognition with Google's FaceNet deep neural network using Torch. [[Paper](http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf)]  [[Python]((https://github.com/cmusatyalab/openface))] 
+- [OpenFace: Face recognition with Google's FaceNet deep neural network using Torch](http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf)]  [[Torch +Python](https://github.com/cmusatyalab/openface)] 
  
 ## Face Genearation <a name="face-generation"></a>
 ### Survey <a name="face-generation-survey"></a>
@@ -182,9 +183,9 @@ across Pose and Illumination Variation [[Paper](http://cbl.uh.edu/pub_files/UHDB
 3. DR-GAN: [[Paper](http://cvlab.cse.msu.edu/pdfs/Tran_Yin_Liu_CVPR2017.pdf)] [[Website](http://cvlab.cse.msu.edu/project-dr-gan.html)]
 4. BEGAN: Boundary Equilibrium Generative Adversarial Networks [[Paper](https://arxiv.org/abs/1703.10717)]
 
-## Face Attributes <a name="face-attributes"></a>
-### Survey <a name="face-attributes-survey"></a>
+## Face Attributes Analysis <a name="face-attributes-analysis"></a>
+### Survey <a name="face-attributes-analysis-survey"></a>
 
-### Datasets <a name="face-attributes-datasets"></a>
+### Datasets <a name="face-attributes-analysis-datasets"></a>
 
-### Research <a name="face-attributes-research"></a>
+### Research <a name="face-attributes-analysis-research"></a>
