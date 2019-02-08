@@ -26,6 +26,9 @@ Updated on 02/08/2019
     - [Tutorial](#face-recognition-tutorial)
     - [Datasets](#face-recognition-datasets)
     - [Template Generator](#face-recognition-template-genearator)
+        - [Pretrained models](#face-recognition-pre-trained-model)
+        - [Image-based Template Generator](#face-recognition-image-template-generator)
+        - [Image-set-based Template Generator](#face-recognition-set-template-generator)
     - [Face Recognition Pipeline](#face-recognition-pipeline)
 
 
@@ -45,15 +48,15 @@ Updated on 02/08/2019
     - [Pyro](https://github.com/uber/pyro): Deep universal probabilistic programming with Python and PyTorch
 
 ## Face Detection <a name="face-detection"></a>
-### Survey
+### Survey <a name="face-detection-survey"></a>
 
-### Datasets
+### Datasets <a name="face-detection-datasets"></a>
 - Wildest Faces: Face Detection and Recognition in Violent Settings [[Paper](https://arxiv.org/abs/1805.07566)] 
 - WIDER FACE: A Face Detection Benchmark [[Project](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/WiderFace_Results.html)]  [[Paper](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/support/paper.pdf)] 
 - FDDB: Face Detection and Data Set Benchmark. [[Project](http://vis-www.cs.umass.edu/fddb/)] 
 - AFLW: Annotated Facial Landmarks in the Wild: A Large-scale, Real-world Database for Facial Landmark Localization. [[Project](https://lrs.icg.tugraz.at/research/aflw/)] 
 
-### Research
+### Research <a name="face-detection-research"></a>
 - PyramidBox: A Context-assisted Single Shot Face Detector [ [Paper](https://arxiv.org/pdf/1803.07737.pdf)]  [[TensorFlow](https://github.com/EricZgw/PyramidBox)]  [[PyTorch](https://github.com/Goingqs/PyramidBox)]  [[MXNet](https://github.com/JJXiangJiaoJun/gluon_PyramidBox)]  
 - Face Attention Network: An Effective Face Detector for the Occluded Faces [[Paper](https://arxiv.org/abs/1711.07246)]  [[PyTorch](https://github.com/rainofmine/Face_Attention_Network)]  
 - FaceNess-Net: Face Detection through Deep Facial Part Responses: [[Paper](https://arxiv.org/pdf/1701.08393.pdf)] 
@@ -65,16 +68,16 @@ Updated on 02/08/2019
 - FaceBoxes: A CPU Real-time Face Detector with High Accuracy [[Paper](http://cn.arxiv.org/abs/1708.05234)]  [[Caffe](https://github.com/zeusees/FaceBoxes)]  
 - Multiview Face Detection: [[Paper](https://arxiv.org/abs/1502.02766)]  [[Caffe](https://github.com/guoyilin/FaceDetection_CNN)] 
     
-## Face Alignment
-### Survey
+## Face Alignment <a name="face-alignment"></a>
+### Survey <a name="face-alignment"></a>
 
-### Datasets
+### Datasets <a name="face-alignment"></a>
 - LS3D-W: How far are we from solving the 2D & 3D Face Alignment problem? (and a dataset of 230,000 3D facial landmarks) [[Project](https://www.adrianbulat.com/face-alignment)] 
 - AFLW: Annotated Facial Landmarks in the Wild: A Large-scale, Real-world Database for Facial Landmark Localization. [[Project](https://lrs.icg.tugraz.at/research/aflw/)] 
 - 300-W [[Project](https://ibug.doc.ic.ac.uk/resources/300-W/)] 
 - 300-VW [[Project](https://ibug.doc.ic.ac.uk/resources/300-VW/)]
 
-### Research
+### Research <a name="face-alignment"></a>
 - FAN: How far are we from solving the 2D & 3D Face Alignment problem? [[Paper](https://arxiv.org/abs/1703.07332)]  [[PyTorch](https://github.com/1adrianb/face-alignment)] 
 - JFA: Joint Head Pose Estimation and Face Alignment Framework
 Using Global and Local CNN Features [[Paper](http://cbl.uh.edu/pub_files/07961802.pdf)] 
@@ -82,14 +85,14 @@ Using Global and Local CNN Features [[Paper](http://cbl.uh.edu/pub_files/0796180
 - RDL: Recurrent 3D-2D Dual Learning for Large-pose Facial Landmark Detection [[Paper](http://openaccess.thecvf.com/content_ICCV_2017/papers/Xiao_Recurrent_3D-2D_Dual_ICCV_2017_paper.pdf)] 
 - PIFA: Pose-invariant 3D face alignment [[Paper](https://arxiv.org/abs/1506.03799)]  [[Code](http://cvlab.cse.msu.edu/project-pifa.html)] 
 
-## Face Reconstruction
-### Survey
+## Face Reconstruction <a name="face-reconstruction"></a>
+### Survey <a name="face-reconstruction-survey"></a>
 
-### Datasets
+### Datasets <a name="face-reconstruction-datasets"></a>
 
-### Research
-- UH-E2FAR [[Paper](https://arxiv.org/abs/1704.05020)] 
-- Multi-View RNN [[Paper](http://cbl.uh.edu/pub_files/IJCB-2017-PD.pdf)] 
+### Research <a name="face-reconstruction-research"></a>
+- UH-E2FAR: End-to-end 3D face reconstruction with deep neural networks: [[Paper](https://arxiv.org/abs/1704.05020)] 
+- Multi-View 3D Face Reconstruction with Deep Recurrent Neural Networks: [[Paper](http://cbl.uh.edu/pub_files/IJCB-2017-PD.pdf)] 
 - 3D Face Morphable Models "In-the-Wild" [[Paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Booth_3D_Face_Morphable_CVPR_2017_paper.pdf)] 
 - 3DMM-CNN [[Paper](https://arxiv.org/pdf/1612.04904.pdf)]  [[Code](https://github.com/anhttran/3dmm_cnn)] 
 - VRN [[Paper](https://arxiv.org/pdf/1703.07834.pdf)]  [[Code](https://github.com/AaronJackson/vrn)] 
@@ -99,51 +102,55 @@ Using Global and Local CNN Features [[Paper](http://cbl.uh.edu/pub_files/0796180
 - Dense Semantic and Topological Correspondence of 3D Faces without Landmarks
 - Generating 3D Faces using Convolutional Mesh Autoencoders [[Paper](https://arxiv.org/pdf/1807.10267.pdf)]  [[Code](https://github.com/anuragranj/coma)] 
 
-## Face Genearation
-### Survey
+## Face Genearation <a name="face-generation"></a>
+### Survey <a name="face-generation-survey"></a>
 
-### Datasets
+### Datasets <a name="face-generation-datasets"></a>
 
-### Research
+### Research <a name="face-generation-research"></a>
 1. TP-GAN: [[Paper](https://arxiv.org/abs/1704.04086)]
 2. FF-GAN: [[Paper](https://arxiv.org/abs/1704.06244)]
 3. DR-GAN: [[Paper](http://cvlab.cse.msu.edu/pdfs/Tran_Yin_Liu_CVPR2017.pdf)] [[Website](http://cvlab.cse.msu.edu/project-dr-gan.html)]
 4. BEGAN: Boundary Equilibrium Generative Adversarial Networks [[Paper](https://arxiv.org/abs/1703.10717)]
 
-## Face Recognition
-### Survey
+## Face Recognition <a name="face-recognition"></a>
+### Survey <a name="face-recognition-survey"></a>
 
-### Tutorial
+### Tutorial <a name="face-recognition-tutorial"></a>
 - [Deep Learning for Face Recognition](http://valse.mmcheng.net/deep-learning-for-face-recognition/)
 
-### Datasets
-- Training sets:
-    - MS-Celeb-1M: Microsoft dataset contains around 1M subjects [[Project](https://www.microsoft.com/en-us/research/project/ms-celeb-1m-challenge-recognizing-one-million-celebrities-real-world/)]  [[Paper](https://arxiv.org/abs/1607.08221)]  
-    - CASIA WebFace: 10,575 subjects and 494,414 images [[Project](http://www.cbsr.ia.ac.cn/english/CASIA-WebFace-Database.html)]  [[Paper](http://arxiv.org/abs/1411.7923)]  
-    - CelebA: 202,599 images and 10,177 subjects, 5 landmark locations, 40 binary attributes [[Project](http://mmlab.ie.cuhk.edu.hk/projects/)] 
-    - VGG-Face2: A large-scale face dataset contains 3.31 million imaes of 9131 identities. [[Project](http://www.robots.ox.ac.uk/~vgg/data/vgg_face2/)] 
-- Face Verification
-    - LFW: Labeled Face in the Wild: 13,000 images and 5749 subjects [[Download](http://vis-www.cs.umass.edu/lfw/)]
-    - CFP: Celebrities in Frontal-Profile in the Wild [[Project](http://www.cfpw.io/)]  [[Paper](http://www.cfpw.io/paper.pdf)]
-    - MegaFace: 1 Million Faces for Recognition at Scale, 690,572 subjects [[Download](http://megaface.cs.washington.edu/)]
-    - Surveillance Face Recognition Challenge [[Project](https://qmul-survface.github.io/)]  [[Paper](https://arxiv.org/abs/1804.09691)] 
-- Face Closed-set Identification
-    - UHDB31: UHDB31: A Dataset for Better Understanding Face Recognition
-across Pose and Illumination Variation [[Paper](http://cbl.uh.edu/pub_files/UHDB31_-_CHI_Workshop_-_Final)] 
-- Face Open-set Identification
-    - IJB-C: IARPA Janus Benchmark-C: Face dataset and protocol [[Paper](https://noblis.org/wp-content/uploads/2018/03/icb2018.pdf)]
-    - IJB-B: IARPA Janus Benchmark-B Face Dataset [[Paper](https://www.nist.gov/document/ijbbchallengedocumentationreadmepdf)]
-    - IJB-A: Pushing the frontiers of unconstrained face detection and recognition: IARPA Janus Benchmark A [[Paper](https://www.cv-foundation.org/openaccess/content_cvpr_2015/app/1B_089_ext.pdf)]
-    - Unconstrained Face Detection and Open-Set Face Recognition Challenge [[Project](http://vast.uccs.edu/Opensetface/)]  [[Paper](https://arxiv.org/abs/1708.02337)] 
-    - MegaFace: 1 Million Faces for Recognition at Scale, 690,572 subjects [[Download](http://megaface.cs.washington.edu/)]
+### Datasets <a name="face-recognition-datasets"></a>
+#### Training sets:
+- MS-Celeb-1M: Microsoft dataset contains around 1M subjects [[Project](https://www.microsoft.com/en-us/research/project/ms-celeb-1m-challenge-recognizing-one-million-celebrities-real-world/)]  [[Paper](https://arxiv.org/abs/1607.08221)]  
+- CASIA WebFace: 10,575 subjects and 494,414 images [[Project](http://www.cbsr.ia.ac.cn/english/CASIA-WebFace-Database.html)]  [[Paper](http://arxiv.org/abs/1411.7923)]  
+- CelebA: 202,599 images and 10,177 subjects, 5 landmark locations, 40 binary attributes [[Project](http://mmlab.ie.cuhk.edu.hk/projects/)] 
+- VGG-Face2: A large-scale face dataset contains 3.31 million imaes of 9131 identities. [[Project](http://www.robots.ox.ac.uk/~vgg/data/vgg_face2/)] 
 
-### Template Generators
-#### Pretrained Models
+#### Face Verification
+- LFW: Labeled Face in the Wild: 13,000 images and 5749 subjects [[Download](http://vis-www.cs.umass.edu/lfw/)]
+- CFP: Celebrities in Frontal-Profile in the Wild [[Project](http://www.cfpw.io/)]  [[Paper](http://www.cfpw.io/paper.pdf)]
+- MegaFace: 1 Million Faces for Recognition at Scale, 690,572 subjects [[Download](http://megaface.cs.washington.edu/)]
+- Surveillance Face Recognition Challenge [[Project](https://qmul-survface.github.io/)]  [[Paper](https://arxiv.org/abs/1804.09691)] 
+
+#### Face Closed-set Identification
+- UHDB31: UHDB31: A Dataset for Better Understanding Face Recognition
+across Pose and Illumination Variation [[Paper](http://cbl.uh.edu/pub_files/UHDB31_-_CHI_Workshop_-_Final)] 
+
+#### Face Open-set Identification
+- IJB-C: IARPA Janus Benchmark-C: Face dataset and protocol [[Paper](https://noblis.org/wp-content/uploads/2018/03/icb2018.pdf)]
+- IJB-B: IARPA Janus Benchmark-B Face Dataset [[Paper](https://www.nist.gov/document/ijbbchallengedocumentationreadmepdf)]
+- IJB-A: Pushing the frontiers of unconstrained face detection and recognition: IARPA Janus Benchmark A [[Paper](https://www.cv-foundation.org/openaccess/content_cvpr_2015/app/1B_089_ext.pdf)]
+- Unconstrained Face Detection and Open-Set Face Recognition Challenge [[Project](http://vast.uccs.edu/Opensetface/)]  [[Paper](https://arxiv.org/abs/1708.02337)] 
+- MegaFace: 1 Million Faces for Recognition at Scale, 690,572 subjects [[Download](http://megaface.cs.washington.edu/)]
+
+### Template Generators <a name="face-recognition-template-generator"></a>
+#### Pretrained Models <a name="face-recognition-pre-trained-model"></a>
+- ResNet-101, DenseNet-121 provided by [FaRE](https://arxiv.org/abs/1901.09447)
 - ResNet-50,  SE-ResNet-50 provided by [VGG-Face2](http://www.robots.ox.ac.uk/~vgg/data/vgg_face2/) [[Download](https://github.com/ox-vgg/vgg_face2)]  
 - VGG-16 provided by [VGG-Face](http://www.robots.ox.ac.uk/~vgg/software/vgg_face/)
 - InsightFace [[Download](https://github.com/deepinsight/insightface)]
 
-#### Image-based Template Genearator
+#### Image-based Template Genearator <a name="face-recognition-image-template-generator"></a>
 - Pairwise Relation Network, ECCV18: [[Paper](https://arxiv.org/pdf/1808.04976.pdf)]
 - GridFace: Face Rectification via Learning Local Homography Transformation, ECCV18: [[Paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Zhou_GridFace_Face_Rectification_ECCV_2018_paper.pdf)] 
 - Consensus-Driven Propagation in Massive Unlabeled Data for Face Recognition, ECCV18: [[Paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Xiaohang_Zhan_Consensus-Driven_Propagation_in_ECCV_2018_paper.pdf)] 
@@ -152,11 +159,11 @@ across Pose and Illumination Variation [[Paper](http://cbl.uh.edu/pub_files/UHDB
 - DeepID series, CVPR14: [[DeepID](http://mmlab.ie.cuhk.edu.hk/pdf/YiSun_CVPR14.pdf)]  [[DeepID2](http://arxiv.org/abs/1406.4773)]  [[DeepID3](http://arxiv.org/abs/1502.00873)] 
 - DeepFace: Closing the Gap to Human-Level Performance in Face Verification, CVPR14: [[Paper](https://www.cs.toronto.edu/~ranzato/publications/taigman_cvpr14.pdf)]  
 
-#### Image-set-based Template Generator
+#### Image-set-based Template Generator <a name="face-recognition-set-template-generator"></a>
 - Dependency-aware Attention Control for Unconstrained Face Recognition with Image Sets
 
 
-#### Training Loss
+#### Training Loss <a name="face-recognition-training-loss"></a>
 - InsightFace (ArcFace): Additive Angular Margin Loss for Deep Face Recognition [[Paper](https://arxiv.org/abs/1801.07698)]  [[MXNet](https://github.com/deepinsight/insightface)] 
 - CosFace: Large Margin Cosine Loss for Deep Face Recognition [[Paper](http://openaccess.thecvf.com/content_cvpr_2018/CameraReady/1797.pdf)]  [[TensorFlow](https://github.com/yule-li/CosFace)]  [[MXNet](https://github.com/deepinsight/insightface)] 
 - Ring loss: Convex Feature Normalization for Face Recognition [[Paper](https://arxiv.org/abs/1803.00130)]  [[PyTorch](https://github.com/Paralysis/ringloss)] 
@@ -168,7 +175,7 @@ across Pose and Illumination Variation [[Paper](http://cbl.uh.edu/pub_files/UHDB
 - L-Softmax [[Paper](https://arxiv.org/abs/1612.02295)]  [[Caffe](https://github.com/wy1iu/LargeMargin_Softmax_Loss)]  [[MXNet](https://github.com/luoyetx/mx-lsoftmax)] 
 - Marginal Loss [[Paper](https://ibug.doc.ic.ac.uk/media/uploads/documents/deng_marginal_loss_for_cvpr_2017_paper.pdf)] 
 
-### Face Recognition Pipeline
+### Face Recognition Pipeline <a name="face-recognition-pipeline"></a>
 - UR2D-E:Evaluation of a 3D-aided Pose Invariant 2D Face Recognition System [[Paper](http://cbl.uh.edu/pub_files/IJCB-2017-XX.pdf))] 
 - SeetaFaceEngine: An open source C++ face recognition engine. [[C++](https://github.com/seetaface/SeetaFaceEngine)] 
 - OpenFace: Face recognition with Google's FaceNet deep neural network using Torch. [[Paper](http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf)]  [[Python]((https://github.com/cmusatyalab/openface))] 
