@@ -1,7 +1,5 @@
 # Face Related Papers and Code Collection
-A collection for the face-related papers and codes. Any face research/engineer related merge request is wellcome!
-
-Updated on 02/08/2019
+Any face research/engineer related merge request is wellcome! 02/08/2019.
 
 ## Index
 1. [Toolkits](#toolkit)
@@ -17,19 +15,23 @@ Updated on 02/08/2019
     - [Survey](#face-reconstruction-survey)
     - [Datasets](#face-reconstruction-datasets)
     - [Research](#face-reconstruction-research)
-5. [Face Generation](#face-generation)
-    - [Survey](#face-generation-survey)
-    - [Datasets](#face-generation-datasets)
-    - [Research](#face-generation-research)
-6. [Face Recognition](#face-recognition)
+5. [Face Recognition](#face-recognition)
     - [Survey](#face-recognition-survey)
     - [Tutorial](#face-recognition-tutorial)
     - [Datasets](#face-recognition-datasets)
-    - [Template Generator](#face-recognition-template-genearator)
+    - [Template Generator](#face-recognition-template-generator)
         - [Pretrained models](#face-recognition-pre-trained-model)
         - [Image-based Template Generator](#face-recognition-image-template-generator)
         - [Image-set-based Template Generator](#face-recognition-set-template-generator)
     - [Face Recognition Pipeline](#face-recognition-pipeline)
+6. [Face Generation](#face-generation)
+    - [Survey](#face-generation-survey)
+    - [Datasets](#face-generation-datasets)
+    - [Research](#face-generation-research)
+7. [Face Attributes Analysis](#face-attributes-analysis)
+    - [Survey](#face-attributes-analysis-survey)
+    - [Datasets](#face-attributes-analysis-datasets)
+    - [Research](#face-attributes-analysis-research)
 
 
 ## Toolkits <a name="toolkit"></a>
@@ -51,10 +53,10 @@ Updated on 02/08/2019
 ### Survey <a name="face-detection-survey"></a>
 
 ### Datasets <a name="face-detection-datasets"></a>
-- Wildest Faces: Face Detection and Recognition in Violent Settings [[Paper](https://arxiv.org/abs/1805.07566)] 
-- WIDER FACE: A Face Detection Benchmark [[Project](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/WiderFace_Results.html)]  [[Paper](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/support/paper.pdf)] 
-- FDDB: Face Detection and Data Set Benchmark. [[Project](http://vis-www.cs.umass.edu/fddb/)] 
-- AFLW: Annotated Facial Landmarks in the Wild: A Large-scale, Real-world Database for Facial Landmark Localization. [[Project](https://lrs.icg.tugraz.at/research/aflw/)] 
+- [Wildest Faces: Face Detection and Recognition in Violent Settings](https://arxiv.org/abs/1805.07566)
+- [WIDER FACE: A Face Detection Benchmark](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/support/paper.pdf) [[Project](http://mmlab.ie.cuhk.edu.hk/projects/WIDERFace/WiderFace_Results.html)] 
+- [FDDB: Face Detection and Data Set Benchmark](https://www.cics.umass.edu/~elm/papers/fddb.pdf) [[Project](http://vis-www.cs.umass.edu/fddb/)] 
+- [AFLW: Annotated Facial Landmarks in the Wild: A Large-scale, Real-world Database for Facial Landmark Localization](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.384.2988&rep=rep1&type=pdf) [[Project](https://lrs.icg.tugraz.at/research/aflw/)] 
 
 ### Research <a name="face-detection-research"></a>
 - PyramidBox: A Context-assisted Single Shot Face Detector [ [Paper](https://arxiv.org/pdf/1803.07737.pdf)]  [[TensorFlow](https://github.com/EricZgw/PyramidBox)]  [[PyTorch](https://github.com/Goingqs/PyramidBox)]  [[MXNet](https://github.com/JJXiangJiaoJun/gluon_PyramidBox)]  
@@ -101,17 +103,6 @@ Using Global and Local CNN Features [[Paper](http://cbl.uh.edu/pub_files/0796180
 - 3DMM-STN: Using 3DMM to transfer 2D image to 2D image texture [[Paper](https://arxiv.org/abs/1708.07199)] 
 - Dense Semantic and Topological Correspondence of 3D Faces without Landmarks
 - Generating 3D Faces using Convolutional Mesh Autoencoders [[Paper](https://arxiv.org/pdf/1807.10267.pdf)]  [[Code](https://github.com/anuragranj/coma)] 
-
-## Face Genearation <a name="face-generation"></a>
-### Survey <a name="face-generation-survey"></a>
-
-### Datasets <a name="face-generation-datasets"></a>
-
-### Research <a name="face-generation-research"></a>
-1. TP-GAN: [[Paper](https://arxiv.org/abs/1704.04086)]
-2. FF-GAN: [[Paper](https://arxiv.org/abs/1704.06244)]
-3. DR-GAN: [[Paper](http://cvlab.cse.msu.edu/pdfs/Tran_Yin_Liu_CVPR2017.pdf)] [[Website](http://cvlab.cse.msu.edu/project-dr-gan.html)]
-4. BEGAN: Boundary Equilibrium Generative Adversarial Networks [[Paper](https://arxiv.org/abs/1703.10717)]
 
 ## Face Recognition <a name="face-recognition"></a>
 ### Survey <a name="face-recognition-survey"></a>
@@ -160,7 +151,7 @@ across Pose and Illumination Variation [[Paper](http://cbl.uh.edu/pub_files/UHDB
 - DeepFace: Closing the Gap to Human-Level Performance in Face Verification, CVPR14: [[Paper](https://www.cs.toronto.edu/~ranzato/publications/taigman_cvpr14.pdf)]  
 
 #### Image-set-based Template Generator <a name="face-recognition-set-template-generator"></a>
-- Dependency-aware Attention Control for Unconstrained Face Recognition with Image Sets
+- Dependency-aware Attention Control for Unconstrained Face Recognition with Image Sets, ECCV, 2018 [[Paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Xiaofeng_Liu_Dependency-aware_Attention_Control_ECCV_2018_paper.pdf)]
 
 
 #### Training Loss <a name="face-recognition-training-loss"></a>
@@ -180,3 +171,20 @@ across Pose and Illumination Variation [[Paper](http://cbl.uh.edu/pub_files/UHDB
 - SeetaFaceEngine: An open source C++ face recognition engine. [[C++](https://github.com/seetaface/SeetaFaceEngine)] 
 - OpenFace: Face recognition with Google's FaceNet deep neural network using Torch. [[Paper](http://reports-archive.adm.cs.cmu.edu/anon/anon/2016/CMU-CS-16-118.pdf)]  [[Python]((https://github.com/cmusatyalab/openface))] 
  
+## Face Genearation <a name="face-generation"></a>
+### Survey <a name="face-generation-survey"></a>
+
+### Datasets <a name="face-generation-datasets"></a>
+
+### Research <a name="face-generation-research"></a>
+1. TP-GAN: [[Paper](https://arxiv.org/abs/1704.04086)]
+2. FF-GAN: [[Paper](https://arxiv.org/abs/1704.06244)]
+3. DR-GAN: [[Paper](http://cvlab.cse.msu.edu/pdfs/Tran_Yin_Liu_CVPR2017.pdf)] [[Website](http://cvlab.cse.msu.edu/project-dr-gan.html)]
+4. BEGAN: Boundary Equilibrium Generative Adversarial Networks [[Paper](https://arxiv.org/abs/1703.10717)]
+
+## Face Attributes <a name="face-attributes"></a>
+### Survey <a name="face-attributes-survey"></a>
+
+### Datasets <a name="face-attributes-datasets"></a>
+
+### Research <a name="face-attributes-research"></a>
