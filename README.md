@@ -97,7 +97,7 @@ Using Global and Local CNN Features [[Paper](http://cbl.uh.edu/pub_files/0796180
 - Multi-View 3D Face Reconstruction with Deep Recurrent Neural Networks: [[Paper](http://cbl.uh.edu/pub_files/IJCB-2017-PD.pdf)] 
 - 3D Face Morphable Models "In-the-Wild" [[Paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Booth_3D_Face_Morphable_CVPR_2017_paper.pdf)] 
 - 3DMM-CNN [[Paper](https://arxiv.org/pdf/1612.04904.pdf)]  [[Code](https://github.com/anhttran/3dmm_cnn)] 
-- VRN [[Paper](https://arxiv.org/pdf/1703.07834.pdf)]  [[Code](https://github.com/AaronJackson/vrn)] 
+- VRN [[Paper](https://arxiv.org/pdf/1703.07834.pdf)] [[Code](https://github.com/AaronJackson/vrn)] [[Online Demo](http://cvl-demos.cs.nott.ac.uk/vrn)]
 - 3DFaceNet [[Paper](https://arxiv.org/pdf/1708.00980.pdf)] 
 - MoFA: Unsupervised learning for 3D model and pose parameters [[Paper](https://arxiv.org/abs/1703.10580)] 
 - 3DMM-STN: Using 3DMM to transfer 2D image to 2D image texture [[Paper](https://arxiv.org/abs/1708.07199)] 
